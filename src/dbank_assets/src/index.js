@@ -5,8 +5,8 @@ window.addEventListener('load', async function getBalance() {
   document.getElementById("value").innerText = Math.round(currenetValue * 100) / 100;
 });
 
-document.querySelector("form").addEventListener('submit', async (event) => {
-  event.preventDefault();
+  document.querySelector("form").addEventListener('submit', async (event) => {
+    event.preventDefault();
 
   const button = event.target.querySelector('#submit-btn');
 
